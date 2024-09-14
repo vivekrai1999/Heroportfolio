@@ -27,7 +27,7 @@ const SkillContainer = styled.div`
 `;
 
 const IconWrapper = styled.div`
-  font-size: 5em;
+  font-size: 4em;
   color: #50c9c3;
 `;
 

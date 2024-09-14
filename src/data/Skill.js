@@ -8,12 +8,12 @@ export const Skill = [
     icon: FaJs,
   },
   {
-    name: "jQuery",
-    icon: DiJqueryLogo,
-  },
-  {
     name: "React",
     icon: FaReact,
+  },
+  {
+    name: "jQuery",
+    icon: DiJqueryLogo,
   },
   {
     name: "React Native",
