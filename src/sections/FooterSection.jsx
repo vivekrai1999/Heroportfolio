@@ -19,7 +19,7 @@ const FooterInner = styled.main`
 `;
 
 const Link = styled.a`
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
 `;
 
@@ -37,11 +37,14 @@ const FooterColumn = styled.div`
 
 const FooterHeading = styled.h3`
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: unset;
 `;
 
 const FooterEnd = styled.p`
   text-align: center;
   color: var(--color-grey-0);
+  font-size: 12px;
 `;
 
 const IconContainer = styled.div`
@@ -49,7 +52,7 @@ const IconContainer = styled.div`
   align-items: center;
   justify-content: start;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
   gap: 20px;
 `;
 
@@ -66,9 +69,9 @@ function FooterSection() {
   return (
     <StyledFooter>
       <FooterInner>
-        <ImageContainer>
+        {/* <ImageContainer>
           <ProfileLogo src={logo} />
-        </ImageContainer>
+        </ImageContainer> */}
         <FooterColumn>
           <FooterHeading>Quick Links</FooterHeading>
           <Link>Home</Link>
@@ -85,7 +88,6 @@ function FooterSection() {
             <IoMail />
             <FaGithub />
             <FaLinkedin />
-            <FaInstagram />
             <FaWhatsapp />
           </IconContainer>
         </FooterColumn>

@@ -30,8 +30,8 @@ const AboutContainer = styled.div`
 
   @media (max-width: 768px) {
     width: unset;
-    height: 90%;
-    inset: 100px -16px 0px;
+    height: 100%;
+    inset: 100px -100px 0px;
   }
 `;
 
