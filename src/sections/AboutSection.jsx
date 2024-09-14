@@ -31,7 +31,7 @@ const AboutContainer = styled.div`
   @media (max-width: 768px) {
     width: unset;
     height: 100%;
-    inset: 100px -32px 0px;
+    inset: 100px -16px 0px;
   }
 `;
 
